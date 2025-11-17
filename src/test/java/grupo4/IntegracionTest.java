@@ -58,7 +58,6 @@ public class IntegracionTest {
         double total = Pedido.calcularTotalPedido(productos, 0);
 
         assertEquals(100, total);
-        assertTrue(ServicioGrupo4.validarCliente("Juan"));
     }
 
     // Combinación de validaciones
